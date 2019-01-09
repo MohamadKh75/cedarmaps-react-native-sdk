@@ -17,7 +17,7 @@ allprojects {
         maven { url "$rootDir/../node_modules/react-native/android" }
         maven { url "https://jitpack.io" }
         maven { url "https://maven.google.com" }
-        maven { url "https://repo.cedarmaps.com/android/" }
+        maven { url "http://repo.cedarmaps.com/android/" }
     }
 }
 ```
