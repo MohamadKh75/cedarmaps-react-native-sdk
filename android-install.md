@@ -13,11 +13,11 @@ We need to add some `repositories` in order to get our dependencies.
 ```
 allprojects {
     repositories {
-        jcenter()
-        maven { url "$rootDir/../node_modules/react-native/android" }
         maven { url "https://jitpack.io" }
         maven { url "https://maven.google.com" }
         maven { url "http://repo.cedarmaps.com/android/" }
+        jcenter()
+        maven { url "$rootDir/../node_modules/react-native/android" }
     }
 }
 ```
